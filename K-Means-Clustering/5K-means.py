@@ -22,7 +22,7 @@ plt.title('Dataset')
 plt.xlabel('Distance')
 plt.ylabel('Speed')
 plt.scatter(x1, x2)
-plt.show()
+plt.show()        # to display your graph
 
 #code for EM
 gmm = GaussianMixture(n_components=3)
@@ -52,3 +52,4 @@ plt.xlabel('Distance')
 plt.ylabel('Speed')
 plt1.scatter(X[:,0], X[:,1], c=kmeans.labels_, cmap='rainbow')
 plt1.scatter(kmeans.cluster_centers_[:,0] ,kmeans.cluster_centers_[:,1], color='black')
+plt.show()  
